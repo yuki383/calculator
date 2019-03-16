@@ -1,35 +1,39 @@
 .button {
   font-size: 150%;
-  height: 16%;
-  min-height: 50px;
-  width: 25%;
-  min-width: 50px;
+  height: 50px;
+  width: 50px;
 }
 
 .button-zero {
-  height: 16%;
-  min-height: 50px;
-  width: 50%;
-  min-width: 100px;
+  font-size: 150%;
+  height: 50px;
+  width: 100px;
 }
 
 .calculatorApp {
   background-color: black;
-  width: 20%;
-  min-width: 200px;
+  width: 200px;
 }
 
 .display {
   color: white;
   overflow: hidden;
-  direction: rtl;
+  float: left;
   font-size: 150%;
-  border-color: black;
   background: black;
   height: 20%;
-  min-height: 62;
   width: 100%;
-  resize: none;
   text-align: right;
   white-space: nowrap;
+  padding: 0px 5px 0px 5px;
+}
+
+.display-under div {
+  display: inline-block;
+}
+
+
+.display-option {
+  float: left;
+  color: white;
 }

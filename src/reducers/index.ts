@@ -15,8 +15,6 @@ const initialState: Store = {
 */
 
 export const CalculatorReducer = (state: Store = initialState, action: Action) => {
-  console.log(action);
-  console.log(state)
   switch (action.type) {
     case update: {
       const { expr } = action.payload;
@@ -79,7 +77,7 @@ const calculateResult = (result: number, input: number, option: string): number 
     case "-":
       return result - input;
     case "*":
-      return result * input;
+      return input === 0 ? result : result * input;
     case "/":
       return input === 0 ? result : result / input;
     default: // case "%":

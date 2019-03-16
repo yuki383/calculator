@@ -33,6 +33,7 @@
   ],
   "devDependencies": {
     "@types/react-redux": "^7.0.3",
+    "gh-pages": "^2.0.1",
     "redux-starter-kit": "^0.4.3"
   }
 }
