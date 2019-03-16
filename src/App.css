@@ -1,18 +1,35 @@
-.buttons-row:after {
-  clear: both;
-  content: "";
-  display: table;
-} 
-
 .button {
-  background: #fff;
-  border: 1px solid #999;
-  float: left;
-  font-size: 24px;
-  height: 34px;
-  margin-right: -1px;
-  margin-top: -1px;
-  padding: 0;
-  text-align: center;
-  width: 34px;
+  font-size: 150%;
+  height: 16%;
+  min-height: 50px;
+  width: 25%;
+  min-width: 50px;
+}
+
+.button-zero {
+  height: 16%;
+  min-height: 50px;
+  width: 50%;
+  min-width: 100px;
+}
+
+.calculatorApp {
+  background-color: black;
+  width: 20%;
+  min-width: 200px;
+}
+
+.display {
+  color: white;
+  overflow: hidden;
+  direction: rtl;
+  font-size: 150%;
+  border-color: black;
+  background: black;
+  height: 20%;
+  min-height: 62;
+  width: 100%;
+  resize: none;
+  text-align: right;
+  white-space: nowrap;
 }
